@@ -28,8 +28,8 @@ document.getElementById("result").innerHTML = num1 / num2;
 
 <body>
     <form>
-        1st Number : <input type="text" id="firstNumber" /><br>
-        2nd Number: <input type="text" id="secondNumber" /><br>
+        1st Number : <input type="text" onfocus="this.value=''" id="firstNumber" /><br>
+        2nd Number: <input type="text" onfocus="this.value=''" id="secondNumber" /><br>
         <input type="button" onClick="multiplyBy()" Value="Multiply" />
         <input type="button" onClick="divideBy()" Value="Divide" />
     </form>
